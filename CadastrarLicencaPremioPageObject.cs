@@ -50,9 +50,9 @@ public class CadastrarLicencaPremioPageObject
 
     public void Quit(IWebDriver IWebDriver)
     {
-        LimparMemoria();
         driver.Quit();
         driver.Dispose();
+        LimparMemoria();
     }
 
     public void PreencherForm(string dataInicio, string dataFim)
